@@ -12,7 +12,7 @@ export default function Page() {
         onNavigateToSignUp={() => router.push("/signup")} 
         showAuthButtons={false} 
       />
-      <SignIn onSwitchToSignUp={() => router.push("/signup")} onSuccess={() => router.push("/")} />
+      <SignIn onSwitchToSignUp={() => router.push("/signup")} onSuccess={() => router.push("/hallo")} />
     </div>
   );
 }
