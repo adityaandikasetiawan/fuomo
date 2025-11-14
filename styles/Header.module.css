@@ -1,0 +1,12 @@
+.root { background: #2b2b2b; color: #fff }
+.container { max-width: 1120px; margin: 0 auto; padding: 0 1rem }
+.inner { display: flex; align-items: center; justify-content: space-between; height: 64px }
+.logoBar { background: #e31e45; padding: 0.75rem 1.5rem; margin-left: -1rem; text-decoration: none }
+.logoBar:hover { text-decoration: none }
+.logoText { color: #fff; letter-spacing: 0.05em; font-weight: 700 }
+.shopButton { display: flex; align-items: center; gap: 0.5rem; color: #fff; background: none; border: none; cursor: pointer }
+.nav { display: flex; align-items: center; gap: 2rem }
+.nav a { color: #fff; text-decoration: none; font-weight: 500 }
+.nav a:hover { text-decoration: none }
+.nav a.active { font-weight: 700 }
+.actionButton { background: #e31e45; color: #fff; border: none; border-radius: 6px; padding: 0.5rem 1rem; cursor: pointer; font-weight: 700 }

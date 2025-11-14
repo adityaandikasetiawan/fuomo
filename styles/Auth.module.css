@@ -1,0 +1,36 @@
+.page { min-height: 100vh; background: #f8f9fb }
+.main { max-width: 960px; margin: 0 auto; padding: 2rem 1rem }
+ .title { text-align: center; font-size: 40px; margin: 0 0 0.5rem; font-weight: 700 }
+ .subtitle { text-align: center; color: #666; margin: 0 0 2rem }
+ .card { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 2rem }
+ .grid2 { display: grid; grid-template-columns: 1fr; gap: 1rem }
+@media (min-width: 768px) { .grid2 { grid-template-columns: 1fr 1fr; gap: 1.5rem } }
+ .label { display: block; margin: 0 0 0.5rem; color: #333 }
+.input { width: 100%; border: 1px solid #e5e7eb; border-radius: 8px; padding: 0.75rem 1rem; font-size: 14px; transition: box-shadow 0.2s, border-color 0.2s }
+.input:focus-visible { outline: 2px solid #e31e45; outline-offset: 2px }
+ .passwordRow { position: relative }
+ .toggleBtn { position: absolute; right: 0.75rem; top: 50%; transform: translateY(-50%); background: none; border: none; color: #777; cursor: pointer }
+ .inputIcon { position: absolute; right: 0.75rem; top: 50%; transform: translateY(-50%); color: #777 }
+ .inputWithIcon { padding-right: 2.5rem }
+ .actionsRow { display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; margin-top: 1rem }
+ .checkboxInline { display: flex; align-items: center; gap: 0.5rem }
+ .validList { margin-top: 1rem }
+ .validRow { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem }
+ .validDot { width: 20px; height: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center }
+ .validOn { background: #16a34a; color: #fff }
+ .validOff { background: #d1d5db; color: #fff }
+ .checkboxRow { display: flex; align-items: flex-start; gap: 0.5rem; margin-top: 1rem }
+.cta { width: 100%; margin-top: 1rem; background: #e31e45; color: #fff; border: none; border-radius: 8px; padding: 0.75rem 1rem; height: 48px; cursor: pointer; font-weight: 700 }
+@media (min-width: 1024px) { .main { padding: 3rem 2rem } }
+.socialList { display: grid; gap: 0.75rem }
+ .linkRow { margin-top: 1rem; text-align: center; color: #666 }
+.linkBtn { color: #e31e45; background: none; border: none; cursor: pointer; text-decoration: underline; font-weight: 700 }
+.socialBtn { width: 100%; height: 48px; border-radius: 8px; border: none; display: flex; align-items: center; justify-content: center; gap: 0.5rem; cursor: pointer; font-weight: 700 }
+ .socialGoogle { background: #ffffff; border: 2px solid #d1d5db; color: #1f2937 }
+ .socialGoogle:hover { background: #f3f4f6 }
+ .socialDiscord { background: #5865F2; color: #ffffff }
+ .socialDiscord:hover { background: #4752C4 }
+ .socialFacebook { background: #1877F2; color: #ffffff }
+.socialFacebook:hover { background: #166FE5 }
+ .groupGap { margin-top: 1rem }
+ .footerSpacer { margin-top: 2rem }

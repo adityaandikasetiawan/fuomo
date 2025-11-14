@@ -1,0 +1,40 @@
+.page { min-height: 100vh; background: #fff }
+.hero { max-width: 1120px; margin: 0 auto; padding: 4rem 1rem }
+.heroGrid { display: grid; grid-template-columns: 1fr; gap: 3rem }
+@media (min-width: 768px) { .heroGrid { grid-template-columns: 1fr 1fr } }
+.heroTitle { font-size: 60px; margin: 0 0 1rem; font-weight: 700 }
+.heroText { color: #555; margin: 0 0 2rem }
+.cta { background: #e31e45; color: #fff; border: none; border-radius: 8px; padding: 0.75rem 2rem; cursor: pointer; font-weight: 700 }
+.heroImage { width: 100%; height: 24rem; background: #e5e7eb; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #9ca3af }
+.section { background: #f8f9fb; padding: 4rem 0 }
+.sectionInner { max-width: 1120px; margin: 0 auto; padding: 0 1rem }
+.sectionTitle { font-size: 36px; margin: 0 0 3rem; font-weight: 700 }
+.grid { display: grid; grid-template-columns: 1fr; gap: 1rem }
+@media (min-width: 640px) { .grid { grid-template-columns: 1fr 1fr } }
+@media (min-width: 1024px) { .grid { grid-template-columns: 1fr 1fr 1fr 1fr } }
+.card { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; gap: 1rem }
+.cardImage { width: 100%; height: 16rem; background: #e5e7eb; display: flex; align-items: center; justify-content: center; color: #9ca3af }
+.cardBody { padding: 1rem }
+.cardTitle { font-size: 20px; margin: 0 0 0.5rem; font-weight: 600 }
+.cardText { color: #666; margin: 0 }
+.footer { background: #1a1a1a; color: #fff; padding: 3rem 0 }
+.footerInner { max-width: 1120px; margin: 0 auto; padding: 0 1rem }
+.footerGrid { display: grid; grid-template-columns: 1fr; gap: 2rem }
+@media (min-width: 768px) { .footerGrid { grid-template-columns: 2fr 1fr 1fr } }
+.footerLogoBar { background: #e31e45; display: inline-block; padding: 0.75rem 1.5rem; margin-bottom: 1rem; color: #fff; font-weight: 700; text-decoration: none }
+.footerLogoBar:hover { text-decoration: none }
+.footerText { color: #bbb; font-size: 14px; max-width: 32rem }
+.socialRow { display: flex; gap: 1rem; margin-top: 1rem }
+.socialBtn { width: 32px; height: 32px; background: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #000 }
+.linkCol h3 { margin: 0 0 1rem }
+.links { list-style: none; padding: 0; margin: 0 }
+.links li a { color: #bbb; font-size: 14px; text-decoration: none }
+.bottom { border-top: 1px solid #3f3f3f; margin-top: 2rem; padding-top: 2rem; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; color: #bbb; font-size: 14px }
+.bottomLinks { display: flex; gap: 1rem }
+.bottomLinks a { color: #fff; text-decoration: none; font-weight: 700 }
+.bottomLinks a:hover { text-decoration: none }
+.faqGrid { display: grid; grid-template-columns: 1fr; gap: 1.5rem }
+@media (min-width: 768px) { .faqGrid { grid-template-columns: 1fr 1fr; align-items: start } }
+.faqContent { max-width: 720px }
+@media (min-width: 768px) { .faqContent { max-width: none } }
+.faqImage { width: 100%; height: 16rem; background: #e5e7eb; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #9ca3af }
